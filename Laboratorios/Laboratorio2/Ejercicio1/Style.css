@@ -39,7 +39,7 @@
 
         p{
             text-align: justify;
-
+            text-indent: 5px;
         }
     
         /*
@@ -49,7 +49,8 @@
         */
 
         .a{
-            text-emphasis-color: rgb(0, 165, 102);
+            color: rgb(0, 165, 102);
+            text-decoration: none;
         }
 
     
@@ -57,14 +58,24 @@
         A los elementos de una lista:
             -Margen infierior de 1em
         */
+        li{
+            margin-bottom: 1em;
+        }
     
         /*
         A las imagenes:
             -Ancho fijo de 500px;
         */
+        img{
+            width: 500px;
+        }
     
         /*
         A las líneas divisoras:
             -Borde gris punteado de 5px
             -padding de 1px en todas direcciones
         */
+        hr{
+            border: dotted;
+            padding: 1px;
+        }
