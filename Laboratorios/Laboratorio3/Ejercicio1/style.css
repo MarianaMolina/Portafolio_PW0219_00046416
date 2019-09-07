@@ -6,22 +6,25 @@ body {
 
 .header{
     display: flex;
-
+    justify-content: flex-end;
 }
 
 .btn.open{
     background-color: #4C00C7;
     color: white;
+    margin: 3px;
 }
 
 .btn.download{
     background-color: #0219E5;
     color: white;
+    margin: 3px;
 }
 
 .btn.faq{
     background-color: #F700A2;
     color: white;
+    margin: 3px;
 }
 
 .btn{
@@ -29,10 +32,27 @@ body {
     border-radius: 0.3em;
     box-shadow: none;
     padding: 1em;
-    opacity: 0.8;
     text-transform: uppercase;
+    opacity: 0.8;
 }
 
-h1{
+.btn:hover{
+    opacity: 1.0;
+}
+
+.h1{
+    display: flex;
     font-family: 'Patua One', cursive;
+    color:#C2C0BB;
+    justify-content: center;
+}
+
+.main.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin: 5px;   
 }
