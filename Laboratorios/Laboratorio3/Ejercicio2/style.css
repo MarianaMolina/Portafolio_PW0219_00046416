@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+
+h1{
+    font-family: 'Modak', cursive;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imagenes{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#imagenes>.foto1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+#imagenes>.foto2{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#imagenes>.foto3{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#imagenes>.foto4{
+    grid-column: 6;
+    grid-row: 1;
+}
