@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-/*
+
 body {
-    display:flex;
     background:url(imgFondo.jpg);
-}*/
+}
 
 .header{
     display: flex;
