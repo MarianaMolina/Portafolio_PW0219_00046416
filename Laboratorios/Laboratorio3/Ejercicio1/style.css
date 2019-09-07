@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-
+/*
 body {
+    display:flex;
     background:url(imgFondo.jpg);
-}
+}*/
 
 .header{
     display: flex;
@@ -32,27 +33,33 @@ body {
     border-radius: 0.3em;
     box-shadow: none;
     padding: 1em;
-    text-transform: uppercase;
     opacity: 0.8;
 }
 
 .btn:hover{
-    opacity: 1.0;
+    opacity: 6.0;
 }
 
 .h1{
-    display: flex;
     font-family: 'Patua One', cursive;
-    color:#C2C0BB;
-    justify-content: center;
+    color:#C2C0BB; 
+    text-transform: uppercase; 
+    text-align: center;  
 }
 
-.main.logo{
+img {
+    margin: 3px;
+}
+
+.logos{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    flex-wrap: wrap; 
 }
 
-img{
-    margin: 5px;   
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
