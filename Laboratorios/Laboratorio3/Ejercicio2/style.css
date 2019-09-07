@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
 
+body{
+    background: #949494;
+}
 h1{
     font-family: 'Modak', cursive;
+    color: #5ED600;
+
 }
 
 .header{
