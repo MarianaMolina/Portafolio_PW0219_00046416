@@ -37,8 +37,7 @@ let printArray = ()=>{
         new_btn.innerText = "ELIMINAR"
         new_btn.value = element.id
 
-        new_input.className = "form-control"
-        new_input.innerHTML = "confirmar"
+        new_input.className = "btn btn-danger"
         new_input.type = "text"
 
         new_btn.addEventListener("click", event =>{
